@@ -1,12 +1,12 @@
 
 public class Calcul {
 	
-	public int addition(int a,int b)
+	public Double addition(Double a,Double b)
 	{
 		 return a+b;
 	}
-	public int multiplication(int a,int b)
+	public Double multiplication(Double x,Double y)
 	{
-		 return a*b;
+		 return x*y;
 	}
 }

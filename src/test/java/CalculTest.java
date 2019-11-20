@@ -16,13 +16,13 @@ public class CalculTest {
 	
 	@Test
 	public void testAddition() {
-		assertEquals(5, subject.addition(2,3));
+		assertEquals(5.0, subject.addition(2.0,3.0),0);
 	}
 
 	 
 	@Test
 	public void testMultiplication(){
-		assertEquals(8, subject.multiplication(2,4));
+		assertEquals(8.0, subject.multiplication(2.0,4.0),0);
 	}
 
 }
